@@ -3,8 +3,7 @@ public class Field {
     private static final int DEFAULT_FIELD_SIZE = 3;
     private static final char EMPTY_SELL = ' ';
 
-    public static char[][] field;           //исправить!
-
+    public static char[][] field;
 
     public static int fieldSize;
 

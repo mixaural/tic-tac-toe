@@ -6,7 +6,6 @@ public class Player {
 
     private static int x, y;
     public char symbol;
-    public static boolean win = false;
     public int stepsNumber = 0;
 
 
@@ -172,5 +171,4 @@ public class Player {
             return false;
         }
     }
-    //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 }
