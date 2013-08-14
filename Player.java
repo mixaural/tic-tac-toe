@@ -5,9 +5,9 @@ public class Player {
     Scanner sc = new Scanner(System.in);
 
     private static int x, y;
+
     public char symbol;
     public int stepsNumber = 0;
-
 
 
     public void choiceX0 () {

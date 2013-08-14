@@ -27,7 +27,7 @@ public class Main {
                 break;
             }
 
-            if ((firstPlayer.stepsNumber + secondPlayer.stepsNumber) == 9) {
+            if ((firstPlayer.stepsNumber + secondPlayer.stepsNumber) == (Field.fieldSize * Field.fieldSize)) {
                 System.out.println("Ничья!");
                 break;
             }
